@@ -38,3 +38,46 @@ nav a:hover {
     font-weight: bold;
     font-size: 1.2em;
 }
+
+
+/* HERO */
+
+.hero {
+    height: 100vh;
+    padding: 80px 200px;
+    background: url("img/image2.jpg") no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+
+.hero-container {
+    padding: 50px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(211, 211, 211, 0.5);
+}
+
+
+
+.hero-text h1 {
+    font-size: 48px;
+}
+
+.hero-text button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 7px 30px;
+    border: 0px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+
+.hero-image {
+    background: url("img/image1.jpg") no-repeat center center/cover;
+    width: 50%;
+    height: 450px;
+}
