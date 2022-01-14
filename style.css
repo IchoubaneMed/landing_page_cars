@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background: url("img/image2.jpg") no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
 /* HEADER */
 
 header {
@@ -45,8 +50,6 @@ nav a:hover {
 .hero {
     height: 100vh;
     padding: 80px 200px;
-    background: url("img/image2.jpg") no-repeat center center/cover;
-    background-attachment: fixed;
 }
 
 
@@ -90,6 +93,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: white;
 }
 
 .cars-title {
@@ -135,3 +139,25 @@ nav a:hover {
 #card4 {
     background: url("img/image6.jpg") no-repeat center center/cover;
 }
+
+
+/* QUOTE */
+
+#quote {
+    height: 70vh;
+    padding: 80px 200px;
+    background-color: rgba(211, 211, 211, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+
