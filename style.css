@@ -219,3 +219,88 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+/* RESPONSIVE */
+
+
+@media (max-width: 1280px) {
+    header {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero {
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px;
+    }
+    .hero-text h1 {
+        font-size: 25px;
+    }
+    .hero-image {
+        display: none;
+    }
+
+    #cars {
+        height: 550vh;
+        padding: 20px;
+        justify-content: flex-start;
+    }
+
+    .cars-container {
+        flex-direction: column;
+    }
+
+    .cars-title {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .cars-card {
+        width: 100%;
+        height: 800px;
+    }
+    .cars-photos {
+        height: 600px;
+    }
+
+
+    #quote {
+        padding: 20px;
+    }
+
+    .quote-text {
+        font-size: 20px;
+    }
+
+    #signup {
+        padding: 20px;
+    }
+    .signup-container {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+    .signup-text h1 {
+        font-size: 20px;
+    }
+    .signup-text p {
+        font-size: 18px;
+    }
+
+    footer h3 {
+        font-size: 15px;
+    }
+}
+
